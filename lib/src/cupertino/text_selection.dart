@@ -438,7 +438,7 @@ class _CupertinoTextSelectionControls extends SelectionControls {
         color: _kPopupMenuBackgroundColor,
         minSize: _kPopupMenuHeight,
         padding: _kPopupMenuButtonPadding.add(arrowPadding),
-        borderRadius: null,
+        borderRadius: BorderRadius.zero,
         pressedOpacity: 0.7,
         onPressed: () => onPressed!(delegate.controller),
         child: icon == null
